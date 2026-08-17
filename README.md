@@ -22,8 +22,8 @@
 
 | Asset | Package Type | Architecture | Size | Checksum (SHA-256) | Download |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **`ZynxTerminal_1.0.0_x64-setup.exe`** | NSIS Setup (Recommended) | `Windows x64` | `9.27 MB` | `1a52569562ad79f9697006c2b4fe6b753ddf5983e87916e7b942089f94694578` | [⬇️ **Download .exe**](https://github.com/hrdevop/zynx-releases/releases/download/v1.0.0/ZynxTerminal_1.0.0_x64-setup.exe) |
-| **`ZynxTerminal_1.0.0_x64_en-US.msi`** | MSI Enterprise Installer | `Windows x64` | `11.58 MB` | `10584f3090964d96d992d6c9a3342c536b04583a0a13c6196478ad91382ac072` | [⬇️ **Download .msi**](https://github.com/hrdevop/zynx-releases/releases/download/v1.0.0/ZynxTerminal_1.0.0_x64_en-US.msi) |
+| **`ZynxTerminal_1.0.0_x64-setup.exe`** | NSIS Setup (Recommended) | `Windows x64` | `9.27 MB` | `fe70503a939a87a7e39b90e000b022e3ba5a2bb8572047510a27e4127f15659c` | [⬇️ **Download .exe**](https://github.com/hrdevop/zynx-releases/releases/download/v1.0.0/ZynxTerminal_1.0.0_x64-setup.exe) |
+| **`ZynxTerminal_1.0.0_x64_en-US.msi`** | MSI Enterprise Installer | `Windows x64` | `11.58 MB` | `9847804afcf6f7ba4eed6efc9c980b834462aace60d6c83f04bbbc8d2a12b8eb` | [⬇️ **Download .msi**](https://github.com/hrdevop/zynx-releases/releases/download/v1.0.0/ZynxTerminal_1.0.0_x64_en-US.msi) |
 
 > [!NOTE]
 > **Windows SmartScreen Notice**: During early access, code signing certificates are being provisioned. If Windows SmartScreen displays a prompt on first launch, click **"More info" → "Run anyway"**.
