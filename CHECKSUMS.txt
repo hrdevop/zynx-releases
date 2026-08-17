@@ -1,4 +1,5 @@
 # ZynxTerminal Release Checksums (SHA-256)
-# Verify with: Get-FileHash -Algorithm SHA256 <file> or sha256sum <file>
+# Verify with: Get-FileHash -Algorithm SHA256 <file>
 
-c09808fa57b4f7532d3125a2a5e9a9ba4fe7e5b9a2ca26e2201145cd8d3a15d6  ZynxTerminal-0.1.0-x64-setup.exe
+1a52569562ad79f9697006c2b4fe6b753ddf5983e87916e7b942089f94694578  ZynxTerminal_1.0.0_x64-setup.exe
+10584f3090964d96d992d6c9a3342c536b04583a0a13c6196478ad91382ac072  ZynxTerminal_1.0.0_x64_en-US.msi

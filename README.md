@@ -12,17 +12,18 @@
 
 <br />
 
-[**Official Website**](https://usezynx.com) • [**Download Installer**](#-downloads) • [**Release Notes**](https://github.com/hrdevop/zynx-releases/releases) • [**Report an Issue**](https://github.com/hrdevop/ZynxTerminal-issues/issues/new/choose)
+[**Official Website**](https://usezynx.com) • [**Download Installer**](#-downloads-v100) • [**Release Notes**](https://github.com/hrdevop/zynx-releases/releases) • [**Report an Issue**](https://github.com/hrdevop/ZynxTerminal-issues/issues/new/choose)
 
 </div>
 
 ---
 
-## 📦 Downloads (v0.1.0 Early Access)
+## 📦 Downloads (v1.0.0)
 
-| Asset | Architecture | Size | Checksum (SHA-256) | Download |
-| :--- | :--- | :--- | :--- | :--- |
-| **`ZynxTerminal-0.1.0-x64-setup.exe`** | `Windows x64` | `~2.8 MB` | `c09808fa57b4f7532d3125a2a5e9a9ba4fe7e5b9a2ca26e2201145cd8d3a15d6` | [⬇️ **Download .exe**](https://github.com/hrdevop/zynx-releases/releases/download/v0.1.0/ZynxTerminal-0.1.0-x64-setup.exe) |
+| Asset | Package Type | Architecture | Size | Checksum (SHA-256) | Download |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **`ZynxTerminal_1.0.0_x64-setup.exe`** | NSIS Setup (Recommended) | `Windows x64` | `9.27 MB` | `1a52569562ad79f9697006c2b4fe6b753ddf5983e87916e7b942089f94694578` | [⬇️ **Download .exe**](https://github.com/hrdevop/zynx-releases/releases/download/v1.0.0/ZynxTerminal_1.0.0_x64-setup.exe) |
+| **`ZynxTerminal_1.0.0_x64_en-US.msi`** | MSI Enterprise Installer | `Windows x64` | `11.58 MB` | `10584f3090964d96d992d6c9a3342c536b04583a0a13c6196478ad91382ac072` | [⬇️ **Download .msi**](https://github.com/hrdevop/zynx-releases/releases/download/v1.0.0/ZynxTerminal_1.0.0_x64_en-US.msi) |
 
 > [!NOTE]
 > **Windows SmartScreen Notice**: During early access, code signing certificates are being provisioned. If Windows SmartScreen displays a prompt on first launch, click **"More info" → "Run anyway"**.
@@ -32,14 +33,14 @@
 ## 🚀 Quick Install
 
 ### Method 1: Graphical Setup (Recommended)
-1. Download [**`ZynxTerminal-0.1.0-x64-setup.exe`**](https://github.com/hrdevop/zynx-releases/releases/download/v0.1.0/ZynxTerminal-0.1.0-x64-setup.exe).
-2. Run the executable and follow the quick setup wizard.
+1. Download [**`ZynxTerminal_1.0.0_x64-setup.exe`**](https://github.com/hrdevop/zynx-releases/releases/download/v1.0.0/ZynxTerminal_1.0.0_x64-setup.exe).
+2. Run the installer and follow the quick setup wizard.
 3. Launch **ZynxTerminal** from your Start Menu or Desktop.
 
 ### Method 2: PowerShell One-Liner
 Open PowerShell and run:
 ```powershell
-Invoke-WebRequest -Uri "https://github.com/hrdevop/zynx-releases/releases/download/v0.1.0/ZynxTerminal-0.1.0-x64-setup.exe" -OutFile "$env:TEMP\ZynxTerminal-setup.exe"; Start-Process "$env:TEMP\ZynxTerminal-setup.exe"
+Invoke-WebRequest -Uri "https://github.com/hrdevop/zynx-releases/releases/download/v1.0.0/ZynxTerminal_1.0.0_x64-setup.exe" -OutFile "$env:TEMP\ZynxTerminal-setup.exe"; Start-Process "$env:TEMP\ZynxTerminal-setup.exe"
 ```
 
 ---
@@ -71,14 +72,11 @@ Invoke-WebRequest -Uri "https://github.com/hrdevop/zynx-releases/releases/downlo
 You can verify the authenticity and integrity of downloaded binaries using PowerShell:
 
 ```powershell
-Get-FileHash -Algorithm SHA256 "path\to\ZynxTerminal-0.1.0-x64-setup.exe"
-```
+Get-FileHash -Algorithm SHA256 "path\to\ZynxTerminal_1.0.0_x64-setup.exe"
+# Hash: 1A52569562AD79F9697006C2B4FE6B753DDF5983E87916E7B942089F94694578
 
-Expected Output:
-```
-Algorithm       Hash
----------       ----
-SHA256          C09808FA57B4F7532D3125A2A5E9A9BA4FE7E5B9A2CA26E2201145CD8D3A15D6
+Get-FileHash -Algorithm SHA256 "path\to\ZynxTerminal_1.0.0_x64_en-US.msi"
+# Hash: 10584F3090964D96D992D6C9A3342C536B04583A0A13C6196478AD91382AC072
 ```
 
 ---
