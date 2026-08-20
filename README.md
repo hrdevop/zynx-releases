@@ -5,6 +5,7 @@
 **The terminal workspace built for how you actually ship.**
 
 [![Latest Release](https://img.shields.io/github/v/release/hrdevop/zynx-releases?color=6366f1&label=Release&logo=github&style=flat-square)](https://github.com/hrdevop/zynx-releases/releases/latest)
+[![Microsoft Store](https://img.shields.io/badge/Microsoft_Store-Get_it_free-0078D7?style=flat-square&logo=microsoft)](https://apps.microsoft.com/detail/9PKFLR5JVDRB?hl=en-us&gl=IN&ocid=pdpshare)
 [![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011%20(x64)-blue?style=flat-square&logo=windows)](https://github.com/hrdevop/zynx-releases/releases/latest)
 [![License](https://img.shields.io/badge/License-Apache%202.0-green?style=flat-square)](./LICENSE)
 [![Website](https://img.shields.io/badge/Website-usezynx.com-orange?style=flat-square)](https://usezynx.com)
@@ -12,35 +13,37 @@
 
 <br />
 
-[**Official Website**](https://usezynx.com) • [**Download Installer**](#-downloads-v100) • [**Release Notes**](https://github.com/hrdevop/zynx-releases/releases) • [**Report an Issue**](https://github.com/hrdevop/ZynxTerminal-issues/issues/new/choose)
+[**Official Website**](https://usezynx.com) • [**Microsoft Store**](https://apps.microsoft.com/detail/9PKFLR5JVDRB?hl=en-us&gl=IN&ocid=pdpshare) • [**Downloads**](#-downloads-v102) • [**Release Notes**](https://github.com/hrdevop/zynx-releases/releases) • [**Report an Issue**](https://github.com/hrdevop/ZynxTerminal-issues/issues/new/choose)
 
 </div>
 
 ---
 
-## 📦 Downloads (v1.0.0)
+## 📦 Downloads (v1.0.2)
 
 | Asset | Package Type | Architecture | Size | Checksum (SHA-256) | Download |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **`ZynxTerminal_1.0.0_x64-setup.exe`** | NSIS Setup (Recommended) | `Windows x64` | `9.27 MB` | `fe70503a939a87a7e39b90e000b022e3ba5a2bb8572047510a27e4127f15659c` | [⬇️ **Download .exe**](https://github.com/hrdevop/zynx-releases/releases/download/v1.0.0/ZynxTerminal_1.0.0_x64-setup.exe) |
-| **`ZynxTerminal_1.0.0_x64_en-US.msi`** | MSI Enterprise Installer | `Windows x64` | `11.58 MB` | `9847804afcf6f7ba4eed6efc9c980b834462aace60d6c83f04bbbc8d2a12b8eb` | [⬇️ **Download .msi**](https://github.com/hrdevop/zynx-releases/releases/download/v1.0.0/ZynxTerminal_1.0.0_x64_en-US.msi) |
-
-> [!NOTE]
-> **Windows SmartScreen Notice**: During early access, code signing certificates are being provisioned. If Windows SmartScreen displays a prompt on first launch, click **"More info" → "Run anyway"**.
+| **Microsoft Store** | Official Windows Store App | `Windows x64` | Store Cloud | Verified by Microsoft | [🛍️ **Get from Store**](https://apps.microsoft.com/detail/9PKFLR5JVDRB?hl=en-us&gl=IN&ocid=pdpshare) |
+| **`ZynxTerminal_1.0.2_x64-setup.exe`** | NSIS Setup (Recommended) | `Windows x64` | `9.32 MB` | `3850c068284f7ead4668814795ae5f330b71e08afef2f221a00cb80a35ba31c4` | [⬇️ **Download .exe**](https://github.com/hrdevop/zynx-releases/releases/download/v1.0.2/ZynxTerminal_1.0.2_x64-setup.exe) |
+| **`ZynxTerminal_1.0.2_x64_en-US.msi`** | MSI Enterprise Installer | `Windows x64` | `11.68 MB` | `d82def44ef029a8cf8409110ba31ecd80e139f669a5ac2af3a939bf52f2fb0b1` | [⬇️ **Download .msi**](https://github.com/hrdevop/zynx-releases/releases/download/v1.0.2/ZynxTerminal_1.0.2_x64_en-US.msi) |
+| **`ZynxTerminal_1.0.2.0_x64.msix`** | MSIX App Package | `Windows x64` | `9.77 MB` | `8b0ba6d4931cdbe868b67b385876980a94d7d68f731d10d93549c82b6ed445f7` | [⬇️ **Download .msix**](https://github.com/hrdevop/zynx-releases/releases/download/v1.0.2/ZynxTerminal_1.0.2.0_x64.msix) |
 
 ---
 
 ## 🚀 Quick Install
 
-### Method 1: Graphical Setup (Recommended)
-1. Download [**`ZynxTerminal_1.0.0_x64-setup.exe`**](https://github.com/hrdevop/zynx-releases/releases/download/v1.0.0/ZynxTerminal_1.0.0_x64-setup.exe).
+### Method 1: Microsoft Store (Zero Configuration)
+Install directly from the [**Microsoft Store**](https://apps.microsoft.com/detail/9PKFLR5JVDRB?hl=en-us&gl=IN&ocid=pdpshare) for automated OS background updates.
+
+### Method 2: Graphical Setup (.exe)
+1. Download [**`ZynxTerminal_1.0.2_x64-setup.exe`**](https://github.com/hrdevop/zynx-releases/releases/download/v1.0.2/ZynxTerminal_1.0.2_x64-setup.exe).
 2. Run the installer and follow the quick setup wizard.
 3. Launch **ZynxTerminal** from your Start Menu or Desktop.
 
-### Method 2: PowerShell One-Liner
+### Method 3: PowerShell One-Liner
 Open PowerShell and run:
 ```powershell
-Invoke-WebRequest -Uri "https://github.com/hrdevop/zynx-releases/releases/download/v1.0.0/ZynxTerminal_1.0.0_x64-setup.exe" -OutFile "$env:TEMP\ZynxTerminal-setup.exe"; Start-Process "$env:TEMP\ZynxTerminal-setup.exe"
+Invoke-WebRequest -Uri "https://github.com/hrdevop/zynx-releases/releases/download/v1.0.2/ZynxTerminal_1.0.2_x64-setup.exe" -OutFile "$env:TEMP\ZynxTerminal-setup.exe"; Start-Process "$env:TEMP\ZynxTerminal-setup.exe"
 ```
 
 ---
