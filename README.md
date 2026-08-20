@@ -26,7 +26,7 @@
 | **Microsoft Store** | Official Windows Store App | `Windows x64` | Store Cloud | Verified by Microsoft | [🛍️ **Get from Store**](https://apps.microsoft.com/detail/9PKFLR5JVDRB?hl=en-us&gl=IN&ocid=pdpshare) |
 | **`ZynxTerminal_1.0.2_x64-setup.exe`** | NSIS Setup (Recommended) | `Windows x64` | `9.32 MB` | `3850c068284f7ead4668814795ae5f330b71e08afef2f221a00cb80a35ba31c4` | [⬇️ **Download .exe**](https://github.com/hrdevop/zynx-releases/releases/download/v1.0.2/ZynxTerminal_1.0.2_x64-setup.exe) |
 | **`ZynxTerminal_1.0.2_x64_en-US.msi`** | MSI Enterprise Installer | `Windows x64` | `11.68 MB` | `d82def44ef029a8cf8409110ba31ecd80e139f669a5ac2af3a939bf52f2fb0b1` | [⬇️ **Download .msi**](https://github.com/hrdevop/zynx-releases/releases/download/v1.0.2/ZynxTerminal_1.0.2_x64_en-US.msi) |
-| **`ZynxTerminal_1.0.2.0_x64.msix`** | MSIX App Package | `Windows x64` | `9.77 MB` | `d910b08dc9f9702e659e08ff67fd9fecd66d0926c6a8b8dccff00404f8dd863d` | [⬇️ **Download .msix**](https://github.com/hrdevop/zynx-releases/releases/download/v1.0.2/ZynxTerminal_1.0.2.0_x64.msix) |
+| **`ZynxTerminal_1.0.2.0_x64.msix`** | MSIX App Package | `Windows x64` | `9.77 MB` | `a7577c7b56f5f4fb8d6c1052668884bebab627f7f488f21e4fb9f405017f667e` | [⬇️ **Download .msix**](https://github.com/hrdevop/zynx-releases/releases/download/v1.0.2/ZynxTerminal_1.0.2.0_x64.msix) |
 
 ---
 
