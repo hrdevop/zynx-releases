@@ -3,4 +3,4 @@ Generated: 2026-08-20 (Release v1.0.2)
 
 3850c068284f7ead4668814795ae5f330b71e08afef2f221a00cb80a35ba31c4 *ZynxTerminal_1.0.2_x64-setup.exe
 d82def44ef029a8cf8409110ba31ecd80e139f669a5ac2af3a939bf52f2fb0b1 *ZynxTerminal_1.0.2_x64_en-US.msi
-8b0ba6d4931cdbe868b67b385876980a94d7d68f731d10d93549c82b6ed445f7 *ZynxTerminal_1.0.2.0_x64.msix
+d910b08dc9f9702e659e08ff67fd9fecd66d0926c6a8b8dccff00404f8dd863d *ZynxTerminal_1.0.2.0_x64.msix
